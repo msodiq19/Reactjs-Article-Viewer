@@ -1,7 +1,7 @@
 import './App.css';
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-import { Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import Home from './components/Home'
 import Headlines from './components/Headlines'
 
@@ -21,8 +21,10 @@ function App() {
 
   return (
     <div className="App">
-      <Route path="/" exact={true}><Home /></Route>
-      <Route path="/headlines"><Headlines /></Route>
+      <Switch>
+        <Route path="/" exact={true}><Home /></Route>
+        <Route path="/headlines"><Headlines /></Route>
+      </Switch>
     </div>
   );
 }
