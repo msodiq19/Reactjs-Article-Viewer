@@ -23,8 +23,8 @@ function App() {
     <Router>
     <div className="App">
       <Switch>
-        <Route path="/" exact={true}><Home /></Route>
-        <Route path="/headlines"><Headlines /></Route>
+        <Route path="/" ><Home /></Route>
+        <Route exact path="/headlines"><Headlines /></Route>
       </Switch>
     </div>
     </Router>
