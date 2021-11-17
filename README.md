@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Reactjs NewsViewer APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+Reactjs NewsViewer App was built using Reactjs, React Readux and News API. It is a simple news viewer app for checking the latest news headline.
 
-## Available Scripts
+## Features
+* Provide a useable experience across all modern web browsers and users who require assistive technologies
+* Provide the latest headline news around the globe in all categories.
 
-In the project directory, you can run:
+## How to launch and use the Reactjs NewsViewer APP
+* Go to ("the netlify/vercel link") on your device browser
+* Key-in your search in in the search bar
+* Tap on the enter key on your device
 
-### `npm start`
+# How to set up the app on your local server
+## Fork this project
+* Fork this project.
+* Go to your fork and copy the URL
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Clone this repo
+Go to your command line and clone the project using 
+`git clone URL_OF_FORK`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**E.g: git clone https://github.com/username/Reactjs-NewsViewer-App**
 
-### `npm test`
+## Navigate to your local repository
+`cd NAME_OF_REPOSITORY`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Check that your fork is the "origin" remote
+* Use `git remote -v` to check
+* If it's not, use this to add it as "origin" remote `git remote add origin URL_OF_FORK`
 
-### `npm run build`
+## Add the project repository as the "upstream" remote
+Next add the origin as an upstream: Go to your fork on GitHub, and click the "forked from" link to return to the project repository. While in the project repository, click the green Clone or download button and then copy the HTTPS URL and add the project repository as the "upstream" remote using: `git remote add upstream URL_OF_PROJECT`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pull the latest changes
+Make sure to check if you have the latest changes. 
+Use `git pull upstream main` to pull the latest changes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run this project
 
-### `npm run eject`
+Before you start this process, make sure you have Node installed. 
+If you don't, Download <a href="https://nodejs.org/en/">Node</a> and install.
+*Check the version of Node you're running with the command:* `node --v`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Install the dependences
+`npm install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Run the program(Starts the developement server)
+`npm start`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Live
+Visit the link `http://localhost:3000` to view your application.
